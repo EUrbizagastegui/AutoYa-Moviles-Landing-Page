@@ -1,0 +1,17 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.navbar-start {
+    display: flex;
+    justify-content: start;
+    padding-left: 2em;
+}
+.navbar-end {
+    display: flex;
+    justify-content: end;
+    padding-right: 2em;
+    gap: 1em;
+}

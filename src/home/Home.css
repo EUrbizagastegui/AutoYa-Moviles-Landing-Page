@@ -1,0 +1,34 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100dvh;
+    max-width: 100dvw;
+    gap: 5em;
+}
+.home-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    width: 100%;
+}
+.home-navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.home-quienes-somos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.home-mision {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.home-vision {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

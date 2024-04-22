@@ -8,6 +8,9 @@
     --font-size-medium: 1rem;
     --font-size-large: 1.25rem;
     --font-size-extra-large: 1.5rem;
+    --primary-color: #64908a;
+    --secondary-color: #424254;
+    --tertiary-color: #446661;
 }
 
 
@@ -27,3 +30,16 @@ p {
     font-size: clamp(var(--font-size-small), 0.5rem, 3rem);
 }
 
+button {
+    cursor: pointer;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+    border: 0;
+    font-size: var(--font-size-large);
+}
+
+.primary-button:hover {
+    background-color: var(--tertiary-color);
+}
