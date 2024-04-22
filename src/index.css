@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --font-size-small: 0.75rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.25rem;
+    --font-size-extra-large: 1.5rem;
+}
+
+
+h1 {
+    font-size: clamp(var(--font-size-extra-large), 3rem, 10rem);
+}
+
+h2 {
+    font-size: clamp(var(--font-size-large), 2rem, 8rem);
+}
+
+h3 {
+    font-size: clamp(var(--font-size-medium), 1rem, 6rem);
+}
+
+p {
+    font-size: clamp(var(--font-size-small), 0.5rem, 3rem);
+}
+
